@@ -1,8 +1,8 @@
-# Maintainer: Barnabé di Kartola <barnabedikartola@gmail.com>
+# Maintainer: Tales A. Mendonça <talesam@gmail.com>
 
-pkgname=biglinux-package-template
-pkgdesc="Package template for biglinux"
-# depends=('')
+pkgname=lightdm-webkit2-theme-biglinux
+pkgdesc="A sleek, modern and glorified LightDM webkit2 theme"
+depends=('lightdm-webkit2-greeter')
 # makedepends=('')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)
