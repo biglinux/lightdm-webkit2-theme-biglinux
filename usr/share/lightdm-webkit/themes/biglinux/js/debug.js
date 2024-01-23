@@ -8,7 +8,7 @@ class Debug {
 		if (!window.config) {
 			window.config = {};
 			window.config.get_str = function() {
-				return '/usr/share/lightdm-webkit/themes/lightdm-webkit2-theme-glorious/assets/';
+				return '/usr/share/lightdm-webkit/themes/lightdm-webkit2-theme-biglinux/assets/';
 			};
 		}
 
@@ -73,7 +73,7 @@ class Debug {
 				users: [
 					{
 						display_name: 'Cientist Rat',
-						username: 'cientist-rat',
+						username: 'biglinux',
 						image: 'assets/profiles/cientist-rat.jpg'
 					},
 					{
@@ -83,28 +83,23 @@ class Debug {
 					},
 					{
 						display_name: 'Penguin Tie',
-						username: 'penguin-tie',
+						username: 'vcatafesta',
 						image: 'assets/profiles/penguin-tie.jpg'
 					},
 					{
 						display_name: 'Music Persona',
-						username: 'music-persona',
+						username: 'narayan',
 						image: 'assets/profiles/music-persona.jpg'
 					},
 					{
 						display_name: 'Bright Mind',
-						username: 'bright-mind',
+						username: 'tales',
 						image: 'assets/profiles/bright-mind.jpg'
 					},
 					{
 						display_name: 'Bright Eyes',
-						username: 'bright-eyes',
+						username: 'luska',
 						image: 'assets/profiles/bright-eyes.jpg'
-					},
-					{
-						display_name: 'Default User',
-						username: 'default-user',
-						image: 'assets/profiles/default-user.svg'
 					}
 				],
 				languages: [
